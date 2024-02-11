@@ -39,7 +39,7 @@ The main script can be run in 2 ways:
 
 By having **demo_example** variable assigned to 1, we can run the example.
 
-<!-- Example -->
+![Example Problem](https://github.com/ShamsAli-fathi/Weighted-Fair-Queueing-Implementation-using-Python/blob/main/DemoExample.png)
 
 If not, we run our pseudo-random code.
 
@@ -70,7 +70,7 @@ It is done by choosing a fixed number of flows and assigning a number range for 
 
 The initialized _flow_list_ variable holds all the information of packets, including the flow they belong to. _finish_list_ on the other hand holds the final computed finish time for packets. This list is used for sorting later on.
 
-### Header Script
+## Header Script
 
 All the functions are put in _Header Script_.
 
@@ -123,6 +123,8 @@ def orderPackets(flow_list, finish_list):
 ```
 
 ### Example Output
+
+![Solution](https://github.com/ShamsAli-fathi/Weighted-Fair-Queueing-Implementation-using-Python/blob/main/DemoOutput.png)
 
 ## Acknowledgments/References
 
