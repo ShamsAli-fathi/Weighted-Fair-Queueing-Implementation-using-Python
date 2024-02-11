@@ -76,7 +76,7 @@ All the functions are put in _Header Script_.
 
 The very first function is to generate packets with the given specs.
 
-```
+```python
 def packetGenerate(flow_id, arrival, length):
     packet = {"flow": flow_id, "arrival_time": arrival, "length": length}
     return packet
